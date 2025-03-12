@@ -39,53 +39,42 @@ The architecture of the mini honeynet in Azure consists of the following compone
 
 
 ## Attack Maps Before Hardening / Security Controls
-<img width="735" alt="Capture1" src="https://github.com/kphillip1/azure-soc-honeynet/assets/165929885/6201e7a7-6e1e-4759-bca5-c820e125190c">
-<br><br>
-<img width="593" alt="Capture2" src="https://github.com/kphillip1/azure-soc-honeynet/assets/165929885/ccefa380-5948-4dd6-b52c-f303648fb68e">
-<br><br>
-<img width="598" alt="Capture3" src="https://github.com/kphillip1/azure-soc-honeynet/assets/165929885/3406fac0-c152-4684-bc3a-236ff35a9eb4">
-<br><br>
+
 
 ## Metrics Before Hardening / Security Controls
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
 <br>
-| Start Time 2024-04-13 13:53:48
+
 <br>
-| Stop Time 2024-04-14 13:53:48
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 7671
-| Syslog                   | 833
-| SecurityAlert            | 4
-| SecurityIncident         | 59
-| AzureNetworkAnalytics_CL | 620
+| SecurityEvent            | 
+| Syslog                   | 
+| SecurityAlert            | 
+| SecurityIncident         | 
+| AzureNetworkAnalytics_CL | 
 
 ## Attack Maps After Hardening / Security Controls
 
-<img width="231" alt="noresults" src="https://github.com/kphillip1/azure-soc-honeynet/assets/165929885/031e52cf-266f-40de-a1b1-d8ff313aa746">
-<br><br>
-
-```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
 
 ## Metrics After Hardening / Security Controls
 
 The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
 <br>
-| Start Time 2024-04-15 11:50:28
+| Start Time 2025-03- 
 <br>
-| Stop Time 2024-04-16 11:50:28
+| Stop Time 2025-03-
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 3894
-| Syslog                   | 6
-| SecurityAlert            | 0
-| SecurityIncident         | 0
-| AzureNetworkAnalytics_CL | 0
+| SecurityEvent            | 
+| Syslog                   | 
+| SecurityAlert            | 
+| SecurityIncident         | 
+| AzureNetworkAnalytics_CL | 
 
-![image](https://github.com/kphillip1/azure-soc-honeynet/assets/165929885/3d5a9f41-fd9f-4e0c-bfa1-85da4b249939)
 
 
 ## Summary
